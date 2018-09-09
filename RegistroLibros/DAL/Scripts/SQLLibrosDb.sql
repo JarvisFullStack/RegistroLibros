@@ -1,0 +1,15 @@
+CREATE DATABASE LibrosDb
+GO
+
+USE LibrosDb;
+GO
+
+
+CREATE TABLE Libros(
+	LibroId INT PRIMARY KEY IDENTITY,
+	Descripcion VARCHAR(MAX),
+	Siglas VARCHAR(10),
+	TipoId INT
+)
+
+GO
